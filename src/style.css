@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+span {
+  display: inline-block;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.swiper-wrapper {
+  width: 100%;
+  height: 50vh !important;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  width: 40% !important;
+  overflow: hidden;
+  border-radius: 1vw;
+}
+
+.swiper-slide img {
+  border-radius: 1vw;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.webgl2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}

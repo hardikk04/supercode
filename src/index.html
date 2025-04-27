@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>21 - Imported Models</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- h-[50vh] w-[40%] rounded-xl overflow-hidden -->
+  </head>
+  <body>
+    <main class="main bg-[#E99768] overflow-hidden">
+      <div class="webgl1"></div>
+      <section class="page1 w-full">
+        <nav class="w-full flex justify-center py-[3vw]">
+          <img class="object-cover" src="/img/logo.png" alt="" />
+        </nav>
+
+        <div class="title py-[2vw]">
+          <div class="uppercase text-[8vw] leading-[.8] font-bold text-center">
+            <h1 class="hero-title1 overflow-hidden">THE DESIGN</h1>
+            <h1 class="hero-title2 overflow-hidden">AGENCY</h1>
+          </div>
+        </div>
+        <div class="svg flex justify-center py-[3vw]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="66"
+            viewBox="0 0 40 66"
+            fill="none"
+          >
+            <path
+              d="M19.5 0V63M19.5 63L38.5 44M19.5 63L2 45.5"
+              stroke="black"
+              stroke-width="3"
+            />
+          </svg>
+        </div>
+      </section>
+      <section class="showreel w-full h-screen">
+        <video
+          class="h-full w-full object-cover"
+          autoplay
+          muted
+          loop
+          src="https://dl.dropboxusercontent.com/scl/fi/hcryhdu695xjbwlf29voo/portfolio_launch_reel_small.mp4?rlkey=3w3jyhnfhj1oi62hnwr123i4e&st=xb2fzlvm&dl=0"
+        ></video>
+      </section>
+      <section class="about relative py-[6vw] flex justify-center text-center">
+        <div class="about w-fit relative">
+          <h3 class="font-bold who overflow-hidden">WHO WE ARE</h3>
+          <div
+            class="uppercase text-[5vw] leading-[.8] font-bold text-center pt-[1vw] pb-[4vw]"
+          >
+            <h1 class="secondary1 overflow-hidden">THE DESIGN</h1>
+            <h1 class="secondary2 overflow-hidden">AGENCY</h1>
+          </div>
+          <div class="para flex justify-center">
+            <p
+              class="w-[40%] text-[1.2vw] leading-[1.2] font-semibold overflow-hidden"
+            >
+              Engaging user experience, world class web design & development,
+              unique brand identity solutions to shine.
+            </p>
+          </div>
+          <img
+            class="time object-contain absolute top-[0%] right-[0%]"
+            src="/img/time.png"
+            alt=""
+          />
+          <img
+            class="home object-contain absolute right-[-10%] bottom-[0%]"
+            src="/img/home.png"
+            alt=""
+          />
+        </div>
+        <img
+          class="earth object-contain absolute right-[40%] bottom-[-10%]"
+          src="/img/earth.png"
+          alt=""
+        />
+      </section>
+      <section
+        class="swiper-crousel h-[90vh] w-full flex items-center overflow-x-hidden"
+      >
+        <div class="swiper mySwiper h-full w-full">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide card">
+              <img
+                class="h-full w-full object-cover"
+                src="/img/brand2.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide card">
+              <img
+                class="h-full w-full object-cover"
+                src="/img/brand3.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide card">
+              <img
+                class="h-full w-full object-cover"
+                src="/img/brand1.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide card">
+              <img
+                class="h-full w-full object-cover"
+                src="/img/brand2.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide card">
+              <img
+                class="h-full w-full object-cover"
+                src="/img/brand2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+      <section class="blank h-[50vh] w-full"></section>
+      <footer
+        class="w-full py-[2vw] flex justify-center flex-col items-center gap-5"
+      >
+        <div class="line border-[1px] w-[75%] h-[1px]"></div>
+        <p class="font-bold text-[1.2vw]">
+          © 2025 Envato Trademarks and brands are the property of their
+          respective owners.
+        </p>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="new.js"></script>
+  </body>
+</html>
